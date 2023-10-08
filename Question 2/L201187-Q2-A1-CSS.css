@@ -4,6 +4,7 @@
     --grey-color: #454545;
     --yellow-color: rgb(236, 169, 23);
     --blue-color: #66bce3;
+    --orange-color:rgb(236, 81, 24);
 }
 
 /* Navbar */
@@ -30,7 +31,7 @@
     font-size: 36px;
     padding: 8px;
     margin-right: 5px;
-    color: rgb(236, 81, 24);
+    color: var(--orange-color);
 }
 .navbar-toggle {
     border: 0px;
@@ -83,7 +84,7 @@
 
 /* Hover */
 .nav.navbar-nav.navbar-right>li>a:hover {
-    color: rgb(236, 81, 24);
+    color: var(--orange-color);
 }
 
 /* Sub-navbar */
